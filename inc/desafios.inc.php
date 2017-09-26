@@ -25,7 +25,7 @@
 				<div class="col-sm-4">
 					<div class="form-group">
 						<select name="" id="" class="form-control">
-							<option value="">por banca</option>
+							<option value="">por ano</option>
 						</select>
 					</div>
 				</div>
