@@ -24,32 +24,6 @@
 							<label for="">E-mail</label>
 							<input type="email" name="email" id="email" required class="form-control" placeholder="exemplo@exemplo.com">
 						</div>
-						<div class="form-group">
-							<label for="exampleInputFile">Foto do perfil</label>
-							<input type="file" id="exampleInputFile">
-							<p class="help-block">Adicione uma foto para sua conta</p>
-						</div>
-						<div class="form-group">
-							<label for="">Deseja receber informações via email?</label>
-							<div class="row">
-								<div class="col-xs-6">
-									<div class="radio">
-										<label>
-											<input type="radio" name="desejaEmail" id="desejaEmail" value="Sim">
-											Sim
-										</label>
-									</div>
-								</div>
-								<div class="col-xs-6">
-									<div class="radio">
-										<label>
-											<input type="radio" name="desejaEmail" id="desejaEmail" value="Nao">
-											Não
-										</label>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 					<div class="col-xs-12">
 						<div class="row">
@@ -87,11 +61,11 @@
 			<div class="col-sm-6">
 				<a class="btn btn-block btn-social btn-facebook">
 					<span class="fa fa-facebook"></span>
-					Entre com o Facebook
+					Cadastre-se com o Facebook
 				</a>
 				<a class="btn btn-block btn-social btn-google">
 					<span class="fa fa-google"></span>
-					Entre com o Google
+					Cadastre-se com o Google
 				</a>
 			</div>
 		</div>

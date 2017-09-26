@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <?php include("inc/head.inc.php") ?>
-    <title>InQvest</title>
+    <title>Enem+</title>
 </head>
 <body>
 	<div id="load"><div id="spin"></div></div>

@@ -3,9 +3,9 @@
 	<section class="section-banner">
 		<div class="container">
 			<div class="slider-home">
-				<a href="?url="><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
-				<a href="?url=g"><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
-				<a href="?url="><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
+				<a href=""><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
+				<a href=""><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
+				<a href=""><div class="slider-item" style="background-image: url(src/img/banner.png);"></div></a>
 			</div>
 		</div>
 	</section>

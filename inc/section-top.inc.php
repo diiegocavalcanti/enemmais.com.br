@@ -195,7 +195,7 @@
 								<div class="row">
 									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
-										<h6>Órgão/Banca</h6>
+										<h6>Ano</h6>
 									</div>
 									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -233,7 +233,7 @@
 								<div class="row">
 									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
-										<h6>Órgão/Banca</h6>
+										<h6>Ano</h6>
 									</div>
 									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -271,7 +271,7 @@
 								<div class="row">
 									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
-										<h6>Órgão/Banca</h6>
+										<h6>Ano</h6>
 									</div>
 									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -309,7 +309,7 @@
 								<div class="row">
 									<div class="col-xs-8 col-sm-4">
 										<h3>Português</h3>
-										<h6>Órgão/Banca</h6>
+										<h6>Ano</h6>
 									</div>
 									<div class="col-xs-4 col-sm-3">
 										<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>

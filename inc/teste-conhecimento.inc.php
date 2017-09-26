@@ -28,8 +28,7 @@
 						</div>
 						<div class="col-xs-5">
 							<p class="text-rv">Restam x Vagas</p>
-							<p class="text-hora">00:00</p>
-							<a href="" class="button-jogar animation">Jogar</a>
+							<p class="text-hora">00:00</p>							
 						</div>
 					</div>
 				</div>

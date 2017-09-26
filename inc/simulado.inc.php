@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2 col-sm-offset-2">
+				<div class="col-sm-2 col-sm-offset-3">
 					<div class="form-group">
 						<select name="ano" id="ano" class="form-control">
 							<option value="">ANO</option>
@@ -14,15 +14,8 @@
 				</div>
 				<div class="col-sm-2">
 					<div class="form-group">
-						<select name="banca" id="banca" class="form-control">
-							<option value="">BANCA</option>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="instituicao" id="instituicao" class="form-control">
-							<option value="">INSTITUIÇÂO</option>
+						<select name="disciplina" id="disciplina" class="form-control">
+							<option value="">DISCIPLINA</option>
 						</select>
 					</div>
 				</div>
@@ -78,7 +71,7 @@
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>ANO/BANCA/DISCIPLINA <?=$i?></h2>
+							<h2>ANO/DISCIPLINA <?=$i?></h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
@@ -167,41 +160,21 @@
 			<div class="col-xs-12 sections-simulado" id="section-criar-simulado">
 				<div class="row">
 					<form action="">
-						<div class="col-sm-12">
-							<div class="form-group">
-								<label for="">Título do Simulado</label>
-								<input type="text" name="titulo" id="titulo" class="form-control">
-							</div>
-						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-4">
 							<div class="form-group">
 								<select name="ano" id="ano" class="form-control">
 									<option value="">ANO</option>
 								</select>
 							</div>
 						</div>
-						<div class="col-sm-3">
-							<div class="form-group">
-								<select name="banca" id="banca" class="form-control">
-									<option value="">BANCA</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="form-group">
-								<select name="instituicao" id="instituicao" class="form-control">
-									<option value="">INSTITUIÇÂO</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-4">
 							<div class="form-group">
 								<select name="disciplina" id="disciplina" class="form-control">
 									<option value="">DISCIPLINA</option>
 								</select>
 							</div>
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-4">
 							<div class="form-group">
 								<select name="assunto" id="assunto" class="form-control">
 									<option value="">ASSUNTO</option>

@@ -5,24 +5,10 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2">
+				<div class="col-sm-2 col-sm-offset-2">
 					<div class="form-group">
 						<select name="ano" id="ano" class="form-control">
 							<option value="">ANO</option>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="banca" id="banca" class="form-control">
-							<option value="">BANCA</option>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="instituicao" id="instituicao" class="form-control">
-							<option value="">INSTITUIÇÂO</option>
 						</select>
 					</div>
 				</div>
@@ -80,7 +66,7 @@
 				</div>
 			</div>
 			<div class="col-xs-11">
-				<h5>PROVA/ANO/BANCA/DISCIPLINA 0</h5>
+				<h5>ANO/DISCIPLINA/ASSUNTO</h5>
 				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur corporis, eum adipisci voluptas facilis vitae quibusdam, minima perspiciatis provident, recusandae impedit. Obcaecati, nihil, voluptatem ut mollitia culpa cupiditate cum doloribus voluptas voluptates laboriosam. Magni similique suscipit laborum quos aliquam earum.</h3>
 			</div>
 		</div>

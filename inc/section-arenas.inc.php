@@ -15,8 +15,8 @@
 						<img class="ico-user" src="src/img/ico-user.svg" width="20%" alt="">
 						<div class="row pdb-20">
 							<div class="col-xs-6">
-								<h3>Economia</h3>
-								<h6>Órgão/Banca</h6>
+								<h3>Matemática</h3>
+								<h6>Ano</h6>
 							</div>
 							<div class="col-xs-6">
 								<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -38,8 +38,8 @@
 						<img class="ico-user" src="src/img/ico-user.svg" width="20%" alt="">
 						<div class="row pdb-20">
 							<div class="col-xs-6">
-								<h3>Economia</h3>
-								<h6>Órgão/Banca</h6>
+								<h3>Matemática</h3>
+								<h6>Ano</h6>
 							</div>
 							<div class="col-xs-6">
 								<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -61,8 +61,8 @@
 						<img class="ico-user" src="src/img/ico-user.svg" width="20%" alt="">
 						<div class="row">
 							<div class="col-xs-6 pdb-20">
-								<h3>Economia</h3>
-								<h6>Órgão/Banca</h6>
+								<h3>Matemática</h3>
+								<h6>Ano</h6>
 							</div>
 							<div class="col-xs-6">
 								<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -86,8 +86,8 @@
 						<img class="ico-user" src="src/img/ico-user.svg" width="20%" alt="">
 						<div class="row pdb-20">
 							<div class="col-xs-6">
-								<h3>Economia</h3>
-								<h6>Órgão/Banca</h6>
+								<h3>Matemática</h3>
+								<h6>Ano</h6>
 							</div>
 							<div class="col-xs-6">
 								<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -109,8 +109,8 @@
 						<img class="ico-user" src="src/img/ico-user.svg" width="20%" alt="">
 						<div class="row pdb-20">
 							<div class="col-xs-6">
-								<h3>Economia</h3>
-								<h6>Órgão/Banca</h6>
+								<h3>Matemática</h3>
+								<h6>Ano</h6>
 							</div>
 							<div class="col-xs-6">
 								<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -132,8 +132,8 @@
 						<img class="ico-user" src="src/img/ico-user.svg" width="20%" alt="">
 						<div class="row">
 							<div class="col-xs-6 pdb-20">
-								<h3>Economia</h3>
-								<h6>Órgão/Banca</h6>
+								<h3>Matemática</h3>
+								<h6>Ano</h6>
 							</div>
 							<div class="col-xs-6">
 								<p class="coin"><span><img src="src/img/coin.png" alt=""></span>x5</p>
@@ -152,7 +152,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 sa-vermais">
-				<a href="">Ver Mais</a>
+				<a href="?url=duelos">Ver Mais</a>
 			</div>
 		</div>
 	</div>

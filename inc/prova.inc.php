@@ -5,27 +5,13 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2 col-sm-offset-2">
+				<div class="col-sm-2 col-sm-offset-4">
 					<div class="form-group">
 						<select name="ano" id="ano" class="form-control">
 							<option value="">ANO</option>
 						</select>
 					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="banca" id="banca" class="form-control">
-							<option value="">BANCA</option>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="instituicao" id="instituicao" class="form-control">
-							<option value="">INSTITUIÇÂO</option>
-						</select>
-					</div>
-				</div>
+				</div>				
 				<div class="col-sm-2">
 					<div class="form-group"><button class="btn" type="submit">FILTRAR</button></div>
 				</div>
@@ -38,12 +24,19 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<p class="pull-left">1000 resultados encontrados</p>
-				<form action="" class="pull-right">
+				<form action="" class="pull-right qtde-pagina">
 					<div class="form-group">
-						<p>Qestões por página</p>
-						<select name="" id="" class="form-control">
-							<option value="">1</option>
-						</select>
+						<div class="row">
+							<div class="col-xs-6">
+								<p>Provas por página</p>
+							</div>
+							<div class="col-xs-6">
+								<select name="" id="" class="form-control">
+									<option value="">1</option>
+								</select>
+							</div>
+						</div>
+
 					</div>
 				</form>
 			</div>
@@ -59,7 +52,7 @@
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>PROVA/ANO/BANCA/DISCIPLINA <?=$i?></h2>
+							<h2>ANO <?=$i?></h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">

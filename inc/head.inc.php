@@ -6,7 +6,7 @@ $endereco = $_SERVER ['REQUEST_URI'];
 ?>
 <meta charset="utf-8" />
 <!-- META TAGS -->
-<meta name="Description" content="Inqvest"/>
+<meta name="Description" content="Enem+"/>
 <meta name="Keywords" content="bit coin, inqvest, vestibular, educação, jogos, trofeus, concursos públicos, TRE, TJ, Polícia Federal"/>
 <meta name="DC.publisher" content="Moob Agência Criativa " />
 <meta name="DC.creator.address" content="contato@agenciamoob.com.br" />
@@ -40,12 +40,12 @@ $endereco = $_SERVER ['REQUEST_URI'];
 <link rel="apple-touch-icon" sizes="72x72" href="./apple-touch-icon-ipad.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="./apple-touch-icon-iphone4.png" />
 <!-- OPEN GRAPH -->
-<meta property='og:title' content='Inqvest' />
+<meta property='og:title' content='Enem+' />
 <meta property='og:description' content='Descrição do site' />
 <meta property='og:url' content='<?=$server?>' />
 <meta property='og:image' content='http://<?=$server?>/src/img/img-og-facebook-200x200.png'/>
 <meta property='og:type' content='website' />
-<meta property='og:site_name' content='Inqvest' />
+<meta property='og:site_name' content='Enem+' />
 
 <script src="src/jquery/jquery-2.1.3.min.js"></script>
 <script src="src/bootstrap/js/bootstrap.js"></script>
