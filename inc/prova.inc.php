@@ -52,7 +52,7 @@
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>ANO <?=$i?></h2>
+							<h2>#<?=$i?> ENEM ANO</h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
@@ -65,7 +65,7 @@
 						<div class="col-xs-12 ctn-collapse collapse" id="collapse-caderno-<?=$i?>">
 							<div class="row">
 								<div class="col-sm-4">
-									<h4>Você já <span>respondeu </span>esse caderno <span>12 vezes</span></h4>
+									<h4>Você já <span>respondeu </span>essa prova <span>12 vezes</span></h4>
 								</div>
 								<div class="col-sm-4">
 									<div class="grafico">

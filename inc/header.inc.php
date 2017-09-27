@@ -16,9 +16,9 @@
 				<ul class="nav navbar-nav menu">
 					<li><a href="?url=desafios">Desafios</a></li>
 					<li><a href="?url=duelos">Duelos</a></li>
-					<li><a href="?url=planos">Planos</a></li>
-					<li><a href="?url=noticias">Notícias</a></li>
+					<li><a href="?url=questoes">Questões</a></li>
 					<li><a href="?url=comofunciona">Como funciona</a></li>
+					<li><a href="?url=planos">Planos</a></li>
 					<li><a href="?url=contato">Fale Conosco</a></li>
 				</ul>
 				<div class="login pull-right">

@@ -5,8 +5,7 @@
 				<div class="titulo-1">
 					<img src="src/img/ico-maiores.svg" width="8%" class="img-responsive">
 					<h2>
-					Maiores Pontuadores <br>
-					<span>Por Desafio</span>
+					Maiores Pontuadores <br>					
 					</h2>
 				</div>
 				<div class="row">
@@ -17,14 +16,13 @@
 								<div class="line impar">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>01º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -33,14 +31,13 @@
 								<div class="line par">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>02º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -49,14 +46,13 @@
 								<div class="line impar">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>03º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>

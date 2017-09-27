@@ -65,13 +65,13 @@
 <section class="section-res-simulado">
 	<div class="container">
 		<div class="row">
-			<div id="section-simulado" class="sections-simulado col-sm-6">
+			<div id="section-simulado" class="sections-simulado col-sm-12">
 				<?php for($i=0;$i<10;$i++){ ?>
 
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>ANO/DISCIPLINA <?=$i?></h2>
+							<h2>#<?=$i?> ANO/DISCIPLINA/DISCIPLINA/DISCIPLINA </h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
@@ -84,10 +84,10 @@
 					<div class="row">
 						<div class="col-xs-12 ctn-collapse collapse" id="collapse-caderno-<?=$i?>">
 							<div class="row">
-								<div class="col-sm-12">
-									<h4>Você já <span>respondeu </span>esse caderno <span>12 vezes</span></h4>
+								<div class="col-sm-4">
+									<h4>Você já <span>respondeu </span>esse simulado <span>12 vezes</span></h4>
 								</div>
-								<div class="col-sm-12">
+								<div class="col-sm-4">
 									<div class="grafico">
 										<div class="grafico-1">
 											<div class="barra">
@@ -136,7 +136,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-12">
+								<div class="col-sm-4">
 									<div class="feedback-box pdt-caderno">
 										<div class="erros-box"></div> <h3>Acertos</h3>
 									</div>
