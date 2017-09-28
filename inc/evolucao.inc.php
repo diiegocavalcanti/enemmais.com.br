@@ -41,8 +41,27 @@
 					<h2>DESAFIOS</h2>
 				</div>
 				<div class="sn-ctn openModal" data-url="inc/questoes-respondidas.inc.php" data-title="DESAFIOS" data-toggle="tooltip" data-placement="bottom" title="Click para ver mais">
-					<h3>10</h3>
+					<div>
+						<h3>10</h3>
+						<h4>00:00</h4>
+						<p>Tempo Médio por Questão</p>
+					</div>
 				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="sn-titulo openModal" data-url="inc/duelos-respondidos.inc.php" data-title="DUELOS" data-toggle="tooltip" data-placement="top" title="Click para ver mais">
+					<h2>DUELOS</h2>
+				</div>
+				<div class="sn-ctn">
+					<div>
+						<h3>50</h3>
+						<h4>00:00</h4>
+						<p>Tempo Médio por Questão</p>
+						<br>
+						<a class="btn btn-warning btn-xs openModal" data-url="inc/duelos-criar.inc.php" data-title="CRIAR DUELO" data-toggle="tooltip" data-placement="bottom" title="Crie um novo duelo">Criar Duelo</a>
+					</div>
+
+				</div>				
 			</div>
 			<div class="col-sm-2">
 				<div class="sn-titulo">
@@ -50,20 +69,10 @@
 				</div>
 				<div class="sn-ctn">
 					<div>
-						<h3>1000</h3>
-						<h4>00:00</h4>
-						<p>Tempo Médio por Questão</p>
+						<h3>1000</h3>						
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-2">
-				<div class="sn-titulo">
-					<h2>ACERTO LÍQUIDO</h2>
-				</div>
-				<div class="sn-ctn">
-					<h3>50</h3>
-				</div>
-			</div>
+			</div>			
 			<div class="col-sm-2">
 				<div class="sn-titulo">
 					<h2>PONTOS ACUMULADOS</h2>
@@ -74,10 +83,10 @@
 			</div>
 			<div class="col-sm-2">
 				<div class="sn-titulo">
-					<h2>SALDO</h2>
+					<span><img src="src/img/coin.png" class="img-responsive" alt=""></span> <h2>SALDO</h2>
 				</div>
 				<div class="sn-ctn">
-					<h3>$100 <span><img src="src/img/coin.png" class="img-responsive" alt=""></span></h3>
+					<h3>$100 </h3>
 				</div>
 			</div>
 		</div>

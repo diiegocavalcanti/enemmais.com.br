@@ -71,31 +71,46 @@
 									<div class="grafico">
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="20"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="20">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>1º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="80"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="80">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>2º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="20"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="20">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>3º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="99"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="99">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>4º</p>
 										</div>
 										<div class="grafico-1">
 											<div class="barra">
-												<div class="bar-result" percent="2"></div>
+												<div class="acertos"><p>10</p></div>
+												<div class="bar-result" percent="2">
+													<div class="erros"><p>20</p></div>
+												</div>
 											</div>
 											<p>5º</p>
 										</div>

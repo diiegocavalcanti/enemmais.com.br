@@ -13,13 +13,12 @@
 		<div class="row">
 			<div class="col-sm-7">
 				<h2>DISCIPLINA / ANO</h2>
-				<h6><span class="ico"><img src="src/img/feedback/ico-1.svg" alt=""></span> Você concluiu o {Desafio/Duelo} em <strong>00:00</strong> <span class="text">Tempo médio 00:00 </span></h6>
+				<h6><span class="ico"><img src="src/img/feedback/ico-1.svg" alt=""></span> Você concluiu o simulado em <strong>00:00</strong> <span class="text">Tempo médio 00:00 </span></h6>
 				<h6><span class="ico"><img src="src/img/feedback/ico-2.svg" alt=""></span> Você acertou  <strong>00</strong> <span class="text">Média de acertos O</span></h6>
 				<h6><span class="ico"><img src="src/img/feedback/ico-3.svg" alt=""></span> Você errou  <strong>00</strong> <span class="text">Média de erros O </span></h6>
 				<h6><span class="ico"><img src="src/img/feedback/ico-4.svg" alt=""></span> Seu acerto líquido foi de  <strong>00</strong> <span class="text">Média de acerto líquido O </span></h6>
 				<h6><span class="ico"><img src="src/img/feedback/ico-5.svg" alt=""></span> Sua pontuação ﬁnal é  <strong>00</strong> <span class="text">Pontuação média 0 </span></h6>
-				<h6><span class="ico"><img src="src/img/coin.png" alt=""></span> Você ganhou <strong>$ 00</strong> <span class="text">Ganho médio $ 00 </span></h6>
-				<h6><span class="ico"><img src="src/img/feedback/ico-6.svg" alt=""></span> Você subiu para a posição  <strong>00</strong> <br> Obteve um aumento no rendimento de <strong>10%</strong></h6>				
+				<h6><span class="ico"><img src="src/img/coin.png" alt=""></span> Você ganhou <strong>$ 00</strong> <span class="text">Ganho médio $ 00 </span></h6>				
 			</div>
 			<div class="col-sm-5">
 				<div class="row">
@@ -119,25 +118,25 @@
 			<div class="col-xs-12">
 				<h2>Lorem ipsum dolor sit amet!</h2>
 				<h3>Lorem ipsum dolor sit amet lorem ipsum lorem ipsum</h3>
-				<a class="animation" href="">JOGAR NOVAMENTE</a>
-				<a class="animation" href="">ESCOLHER OUTRO JOGO</a>
+				<a class="animation openModal" data-url="inc/duelos-criar-simplificado.inc.php" data-title="Criar Duelo">CRIAR DUELO</a>				
+				<a class="animation" href="">RESPONDER NOVAMENTE</a>				
+				<a class="animation" href="?url=simulado">FAZER OUTRO SIMULADO</a>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section-questoes">
 	<div class="container">
-	<div class="header-questoes">
-	<div class="row">
-
-					<div class="col-xs-2"><h3>QUESTÃO</h3></div>
-					<div class="col-xs-2"><h3>SUA RESPOSTA</h3></div>
-					<div class="col-xs-2"><h3>GABARITO</h3></div>
-					<div class="col-xs-2"><h3>ASSUNTO</h3></div>
-					<div class="col-xs-2"><h3>FREQUÊNCIA</h3><h4>nas provas</h4></div>
-					<div class="col-xs-2"><h3>ACERTO</h3></div>
-				</div>
+		<div class="header-questoes">
+			<div class="row">
+				<div class="col-xs-2"><h3>QUESTÃO</h3></div>
+				<div class="col-xs-2"><h3>SUA RESPOSTA</h3></div>
+				<div class="col-xs-2"><h3>GABARITO</h3></div>
+				<div class="col-xs-2"><h3>ASSUNTO</h3></div>
+				<div class="col-xs-2"><h3>FREQUÊNCIA</h3><h4>nas provas</h4></div>
+				<div class="col-xs-2"><h3>ACERTO</h3></div>
 			</div>
+		</div>
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">

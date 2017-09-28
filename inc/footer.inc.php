@@ -5,7 +5,7 @@
 				<img src="src/img/logo-footer.svg" alt="" class="img-responsive">
 			</div>
 			<div class="col-sm-5">
-				<p>Copyright 2017 Todos os direitos reservados</p>
+				<p>©2017 Enem+. Todos os direitos reservados.</p>
 			</div>
 			<div class="col-sm-5">
 				<div class="social-icons">

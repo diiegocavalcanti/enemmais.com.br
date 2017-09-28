@@ -85,7 +85,9 @@
 			if($_GET["url"] == "bancos"){
 				include("inc/bancos.inc.php");
 			}
-
+			if($_GET["url"] == "feedback-simulado"){
+				include("inc/feedback-simulado.inc.php");
+			}
 
 		} else{
 			include("inc/home.inc.php");

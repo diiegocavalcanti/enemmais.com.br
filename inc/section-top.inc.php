@@ -61,14 +61,13 @@
 								<div class="line par">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>04º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -77,14 +76,13 @@
 								<div class="line impar">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>05º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -93,14 +91,13 @@
 								<div class="line par">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>06º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -109,14 +106,13 @@
 								<div class="line impar">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>07º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -125,14 +121,13 @@
 								<div class="line par">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>08º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -141,14 +136,13 @@
 								<div class="line impar">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>09º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
@@ -157,20 +151,17 @@
 								<div class="line par">
 									<div class="row">
 										<div class="col-xs-4">
-											<h2>Inglês</h2>
-											<h3>Órgão/Banca</h3>
+											<h2>10º</h2>											
 										</div>
 										<div class="col-xs-4">
 											<h4>Jogador1</h4>
 										</div>
 										<div class="col-xs-4">
-											<a href="">100 pts</a>
+											<h4>100 pts</h4>
 										</div>
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 					</div>
 				</div>

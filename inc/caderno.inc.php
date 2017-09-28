@@ -5,27 +5,11 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2 col-sm-offset-2">
+				<div class="col-sm-6 col-sm-offset-2">
 					<div class="form-group">
-						<select name="ano" id="ano" class="form-control">
-							<option value="">ANO</option>
-						</select>
+						<input type="text" name="NomeCaderno" id="NomeCaderno" required class="form-control" placeholder="Nome do Caderno">
 					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="banca" id="banca" class="form-control">
-							<option value="">BANCA</option>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="instituicao" id="instituicao" class="form-control">
-							<option value="">INSTITUIÇÂO</option>
-						</select>
-					</div>
-				</div>
+				</div>				
 				<div class="col-sm-2">
 					<div class="form-group"><button class="btn" type="submit">FILTRAR</button></div>
 				</div>
