@@ -37,10 +37,10 @@
 				</div>
 			</div>
 			<div class="col-sm-2">
-				<div class="sn-titulo openModal" data-url="inc/termos.inc.php" data-title="DESAFIOS">
+				<div class="sn-titulo openModal" data-url="inc/questoes-respondidas.inc.php" data-title="DESAFIOS" data-toggle="tooltip" data-placement="top" title="Click para ver mais">
 					<h2>DESAFIOS</h2>
 				</div>
-				<div class="sn-ctn">
+				<div class="sn-ctn openModal" data-url="inc/questoes-respondidas.inc.php" data-title="DESAFIOS" data-toggle="tooltip" data-placement="bottom" title="Click para ver mais">
 					<h3>10</h3>
 				</div>
 			</div>
@@ -83,7 +83,6 @@
 		</div>
 	</div>
 </section>
-
 <section class="section-busca">
 	<div class="container">
 		<div class="row">
@@ -112,14 +111,37 @@
 						</select>
 					</div>
 				</div>
-
-
 			</form>
 		</div>
 	</div>
 </section>
-
-
+<section class="section-posicao">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="sua-posicao">
+					<div class="line-you">
+						<div class="line-data">
+							<p>Você</p>
+							<div class="my-caret"><img src="src/img/caret-you.svg" alt=""></div>
+							<h6>50%</h6>
+						</div>
+					</div>
+					<div class="line-full"></div>
+					<div class="line-others">
+						<div class="line-data">
+							<p>Média</p>
+							<div class="my-caret"><img src="src/img/caret-others.svg" alt=""></div>
+							<h6>70%</h6>
+						</div>
+					</div>
+					<div class="ball-finish"></div>
+					<div class="ball-init"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="section-graficos">
 	<div class="container">
 		<div class="row">
@@ -129,9 +151,6 @@
 				<div class="line-title"></div>
 			</div>
 		</div>
-
-
-
 		<div class="row">
 			<div class="col-sm-6">
 				<h4>Acerto Líquido/Mês</h4>
@@ -142,7 +161,6 @@
 				<canvas class="grafico" id="grafico-line"></canvas>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-sm-6">
 				<h4>Tempo Médio por Questão</h4>
@@ -153,7 +171,6 @@
 				<canvas class="grafico" id="posicao-geral"></canvas>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-sm-6">
 				<h4>Acerto por Banca</h4>
@@ -166,9 +183,6 @@
 		</div>
 	</div>
 </section>
-
-
-
 <section class="section-visao-geral">
 	<div class="container">
 		<div class="row">
@@ -244,22 +258,16 @@
 		</div>
 	</div>
 </section>
-
-
 <section class="section-graficos section-resultados">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-sm-6">
 				<h3>Acertos por Questão</h3>
-
 				<canvas class="grafico" id="acertos-questao">
-
 				</canvas>
 			</div>
 			<div class="col-sm-6">
 				<h3>Resultado Mensal</h3>
-
 				<div class="row">
 					<div class="col-xs-6">
 						<p>Percentual de Acertos</p>
@@ -270,7 +278,6 @@
 						<h5>00:00 <span><img src="src/img/ico-down.svg" alt=""></span></h5>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-6">
 						<p>Percentual de Erros</p>
@@ -281,7 +288,6 @@
 						<h5>10 <span><img src="src/img/ico-down.svg" alt=""></span></h5>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-6">
 						<p>Questões em Branco</p>
@@ -292,11 +298,8 @@
 						<h5>100 <span><img src="src/img/ico-down.svg" alt=""></span></h5>
 					</div>
 				</div>
-
 			</div>
 		</div>
-
 	</div>
 </section>
-
 <script src="src/js/charts-load.js"></script>

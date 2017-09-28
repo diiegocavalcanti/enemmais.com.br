@@ -142,10 +142,12 @@
 
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H1">
+
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#1" aria-expanded="true" aria-controls="1">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#1" aria-expanded="false" aria-controls="1">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -175,9 +177,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -192,9 +192,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -209,9 +207,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -226,9 +222,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -239,9 +233,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H2">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#2" aria-expanded="true" aria-controls="2">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#2" aria-expanded="false" aria-controls="2">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -271,9 +266,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -288,9 +281,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -305,9 +296,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -322,9 +311,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -335,9 +322,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H3">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#3" aria-expanded="true" aria-controls="1">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#3" aria-expanded="false" aria-controls="1">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -367,9 +355,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -384,9 +370,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -401,9 +385,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -418,9 +400,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -431,9 +411,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H4">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#4" aria-expanded="true" aria-controls="1">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#4" aria-expanded="false" aria-controls="1">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -463,9 +444,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -480,9 +459,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -497,9 +474,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -514,9 +489,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -527,9 +500,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H5">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#5" aria-expanded="true" aria-controls="1">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#5" aria-expanded="false" aria-controls="1">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -559,9 +533,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -576,9 +548,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -593,9 +563,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -610,9 +578,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -623,9 +589,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H6">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#6" aria-expanded="true" aria-controls="1">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#6" aria-expanded="false" aria-controls="1">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -655,9 +622,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -672,9 +637,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -689,9 +652,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -706,9 +667,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -719,9 +678,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H7">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#7" aria-expanded="true" aria-controls="1">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#7" aria-expanded="false" aria-controls="1">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -751,9 +711,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -768,9 +726,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -785,9 +741,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -802,9 +756,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -815,9 +767,10 @@
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H8">
 							<h4 class="panel-title">
-							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#8" aria-expanded="true" aria-controls="8">
+							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#8" aria-expanded="false" aria-controls="8">
 								<div class="row">
 									<div class="col-xs-3">
+										<span class="q-more"></span>
 										<p class="">1</p>
 									</div>
 									<div class="col-xs-3">
@@ -847,9 +800,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -864,9 +815,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -881,9 +830,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 								<div class="item-questao">
@@ -898,9 +845,7 @@
 											</div>
 										</div>
 										</div>
-										<div class="col-xs-3">
-											<h6>Título do assunto</h6>
-										</div>
+
 									</div>
 								</div>
 							</div>

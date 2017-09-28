@@ -5,10 +5,17 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2 col-sm-offset-2">
+				<div class="col-sm-2 col-sm-offset-1">
 					<div class="form-group">
 						<select name="ano" id="ano" class="form-control">
-							<option value="">ANO</option>
+							<option value="">DE ANO</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="form-group">
+						<select name="ano" id="ano" class="form-control">
+							<option value="">ATÉ ANO</option>
 						</select>
 					</div>
 				</div>
@@ -50,7 +57,7 @@
 								</select>
 							</div>
 						</div>
-						
+
 					</div>
 				</form>
 			</div>
@@ -108,6 +115,9 @@
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error laboriosam, recusandae illo ut sint delectus optio possimus praesentium consequuntur, ipsa.
 							</label>
 						</div>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="responder">Responder</button>
 					</div>
 				</form>
 				<div class="feedback-resposta">

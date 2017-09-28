@@ -9,6 +9,25 @@ ApplicationLoad = {
             $("#load").fadeOut(500).delay(500);
         });
 
+        $('.openModal').tooltip();
+
+        $('.coll-questoes').on('click', function(event){
+                var span = $(event.target).children('span');
+                var isOpen = $(event.target).parents('.coll-questoes').attr('aria-expanded');
+                console.log(isOpen);
+
+            if(isOpen == 'false'){
+                span.addClass('q-minus');
+                span.removeClass('q-more');
+
+                console.log('entrou 1');
+            }else if(isOpen == 'true'){
+                span.removeClass('q-minus');
+                span.addClass('q-more');
+                console.log('entrou 2');
+            }
+        });
+
         function openModal(html, titulo) {
             $('.modal-title').html(titulo);
             $('.ajax-html').load(html);

@@ -82,6 +82,9 @@
 			if($_GET["url"] == "cadastro"){
 				include("inc/cadastro.inc.php");
 			}
+			if($_GET["url"] == "bancos"){
+				include("inc/bancos.inc.php");
+			}
 
 
 		} else{

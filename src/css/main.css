@@ -735,7 +735,7 @@ footer .social-icons img{
   background-position: center;
   background-repeat: no-repeat;
 }
-.duelos-bg img, .desafios-bg img, .planos-bg img, .noticias-bg img, .parabens-bg img, .configuracoes-bg img, .questoes-bg img{
+.duelos-bg img, .desafios-bg img, .planos-bg img, .noticias-bg img, .parabens-bg img, .configuracoes-bg img, .questoes-bg img, .bancos-bg img{
   width: 30%;
 }
 .section-titulos.teste-conhecimentos{
@@ -764,6 +764,9 @@ footer .social-icons img{
 }
 .section-titulos.evolucao-bg{
   background-image: url(../img/bg-evolucao-18.svg);
+}
+.section-titulos.bancos-bg{
+  background-image: url(../img/bg-bancos-03.svg);
 }
 .section-titulos img{
   margin-left: auto;
@@ -978,6 +981,7 @@ footer .social-icons img{
   font-weight: bold;
   border-radius: 20px;
 }
+
 .section-duelos{
   padding-top: 50px;
   padding-bottom: 60px;
@@ -1043,6 +1047,7 @@ footer .social-icons img{
   font-size: 20px;
   padding-top: 30px;
 }
+
 .section-planos{
   padding-top: 80px;
   padding-bottom: 60px;
@@ -2047,6 +2052,7 @@ font-weight: bold;
   -webkit-justify-content: center;
   justify-content: center;
   min-height: 72px;
+  cursor: pointer;
 }
 .section-numeros .sn-titulo h2{
   font-weight: bold;
@@ -2331,4 +2337,184 @@ font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.section-posicao{
+  padding-bottom: 60px;
+}
+.section-posicao .sua-posicao{
+  position: relative;
+}
+.section-posicao .sua-posicao .ball-init,
+.section-posicao .sua-posicao .ball-finish{
+  width:20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #4470B3;
+  position: absolute;
+}
+.section-posicao .sua-posicao .ball-init{
+  left: -2px;
+}
+.section-posicao .sua-posicao .ball-finish{
+  right: -2px;
+}
+.section-posicao .sua-posicao .line-full,
+.section-posicao .sua-posicao .line-you,
+.section-posicao .sua-posicao .line-others
+{
+
+  position: absolute;
+  height: 3px;
+}
+.section-posicao .sua-posicao .line-full{
+  background-color: #4470B3;
+  width: 100%;
+  top: 8px
+}
+.section-posicao .sua-posicao .line-you{
+  background-color: #E5452E;
+  width: 50%;
+  top: 13px;
+}
+.section-posicao .sua-posicao .line-others{
+  background-color: #F7B14A;
+  width: 70%;
+  top: 3px;
+}
+.line-you .line-data{
+  color: #E5452E;
+  margin-top: -47px;
+  right: -15px;
+
+}
+.line-others .line-data{
+  color: #F7B14A;
+  margin-top: -27px;
+  right: -20px;
+}
+.line-data{
+  position: absolute;
+  text-align: center;
+
+  z-index: 999 !important;
+}
+.line-data p, .line-data h6{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.line-data .caret{
+  font-size: 20px;
+  border-top: 12px dashed transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+.section-questao .responder{
+
+}
+.section-questao .responder{
+  display: inline-block;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #E5452E;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+}
+.section-questao .responder:hover{
+  background-color: #3F71B0;
+  color: #FFF;
+}
+.section-pesquisas button:hover{
+  background-color: #FFF;
+  color: #E5452E;
+}
+/*--------------------------------- Section Bancos -------------------------------------------*/
+.section-bancos{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #3F71B0;
+  text-align: center;
+}
+.section-bancos .banco{
+  padding: 15px;
+  background-color: #3F71B0;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+.section-bancos .banco h2{
+  font-family: 'VCR OSD Mono';
+  font-size: 42px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-bancos .banco h3{
+  font-family: 'VCR OSD Mono';
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.section-bancos .banco a{
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: #FFF;
+  background-color: #E5452E;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'VCR OSD Mono';
+  text-transform: uppercase;
+}
+.section-bancos .banco a:hover {
+  background-color: #FFF;
+  color: #E5452E;
+}
+
+/*--------------------------------- Section Bancos -------------------------------------------*/
+
+.coll-questoes{
+
+}
+.coll-questoes .q-more:before{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color:#9D9C9C;
+  content: "+";
+  color: #FFF;
+  position: relative;
+  border-radius: 10px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.coll-questoes .q-minus:before{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color:#12374F;
+  content: "-";
+  color: #FFF;
+  position: relative;
+  border-radius: 10px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.coll-questoes p{
+  display: inline-block;
+  vertical-align: middle;
 }
