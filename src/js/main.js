@@ -29,9 +29,11 @@ ApplicationLoad = {
         });
 
         function openModal(html, titulo) {
+            loadIn();
             $('.modal-title').html(titulo);
             $('.ajax-html').load(html);
             $('#modal').modal('show');
+            loadOut();
         }
 
         function loadIn() {
