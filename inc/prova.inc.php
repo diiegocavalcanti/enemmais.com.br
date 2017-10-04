@@ -11,7 +11,7 @@
 							<option value="">ANO</option>
 						</select>
 					</div>
-				</div>				
+				</div>
 				<div class="col-sm-2">
 					<div class="form-group"><button class="btn" type="submit">FILTRAR</button></div>
 				</div>
@@ -36,7 +36,6 @@
 								</select>
 							</div>
 						</div>
-
 					</div>
 				</form>
 			</div>
@@ -47,7 +46,6 @@
 	<div class="container">
 		<div class="row">
 			<?php for($i=0;$i<10;$i++){ ?>
-
 			<div class="col-xs-12">
 				<div class="ctn-res-provas">
 					<div class="row">
@@ -56,9 +54,8 @@
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
-							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="historico animation">HISTÓRICO</a>
-							<a href="" class="comecar animation">COMEÇAR</a>
-
+							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="links historico animation">HISTÓRICO</a>
+							<a href="" class="links comecar animation">COMEÇAR</a>
 						</div>
 					</div>
 					<div class="row">
@@ -70,48 +67,58 @@
 								<div class="col-sm-4">
 									<div class="grafico">
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="20">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="20">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>1º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="80">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="80">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>2º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="20">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="20">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>3º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="99">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="99">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>4º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="2">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="2">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>5º</p>
 										</div>
 									</div>
@@ -123,25 +130,19 @@
 									<div class="feedback-box">
 										<div class="acertos-box"></div> <h3>Erros</h3>
 									</div>
-
 									<p>5 Últimos Resultados</p>
 								</div>
-
 							</div>
-
 							<div class="row">
 								<a class="bt-coll-caderno" role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" >
 									<img src="src/img/questoes/up.svg" alt="">
 								</a>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
-
 			<?php } ?>
-
 		</div>
 	</div>
 </section>

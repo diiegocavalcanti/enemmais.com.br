@@ -60,19 +60,36 @@
 						<br>
 						<a class="btn btn-warning btn-xs openModal" data-url="inc/duelos-criar.inc.php" data-title="CRIAR DUELO" data-toggle="tooltip" data-placement="bottom" title="Crie um novo duelo">Criar Duelo</a>
 					</div>
-
-				</div>				
+				</div>
 			</div>
 			<div class="col-sm-2">
 				<div class="sn-titulo">
 					<h2>QUESTÕES RESOLVIDAS</h2>
 				</div>
 				<div class="sn-ctn">
-					<div>
-						<h3>1000</h3>						
+					<div class="grafico-questoes">
+						<h3>1000</h3>
+						<div class="grafico-1">
+							<a href="?url=feedback-simulado">
+								<p>
+									<span class="acertos">80%</span>
+									<span class="erros">20%</span>
+								</p>
+
+								<div class="barra">
+									<div class="bar-result-questoes" percent="80">
+									</div>
+								</div>
+
+								<p class="legenda-grafico">
+									<span class="acertos">Acertos</span>
+									<span class="erros">Erros</span>
+								</p>
+							</a>
+						</div>
 					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="col-sm-2">
 				<div class="sn-titulo">
 					<h2>PONTOS ACUMULADOS</h2>

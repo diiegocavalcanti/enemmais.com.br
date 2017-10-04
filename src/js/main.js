@@ -9,19 +9,24 @@ ApplicationLoad = {
             $("#load").fadeOut(500).delay(500);
         });
 
+        $(".select-ano").select2({
+            theme: "bootstrap",
+            placeholder: "Selecione o Ano"
+        });
+
         $('.openModal').tooltip();
 
-        $('.coll-questoes').on('click', function(event){
-                var span = $(event.target).children('span');
-                var isOpen = $(event.target).parents('.coll-questoes').attr('aria-expanded');
-                console.log(isOpen);
+        $('.coll-questoes').on('click', function(event) {
+            var span = $(event.target).children('span');
+            var isOpen = $(event.target).parents('.coll-questoes').attr('aria-expanded');
+            console.log(isOpen);
 
-            if(isOpen == 'false'){
+            if (isOpen == 'false') {
                 span.addClass('q-minus');
                 span.removeClass('q-more');
 
                 console.log('entrou 1');
-            }else if(isOpen == 'true'){
+            } else if (isOpen == 'true') {
                 span.removeClass('q-minus');
                 span.addClass('q-more');
                 console.log('entrou 2');
@@ -66,7 +71,7 @@ ApplicationLoad = {
             }
         });
 
-        $('.openModal').on('click', function(event){
+        $('.openModal').on('click', function(event) {
             openModal($(event.target).attr('data-url'), $(event.target).attr('data-title'));
         });
 
@@ -224,6 +229,14 @@ ApplicationLoad = {
             });
         });
 
+        $('.clock-questoes').each(function() {
+            var $this = $(this),
+                finalDate = $(this).data('countdown');
+            $this.countdown(finalDate, function(event) {
+                $this.html(event.strftime('%H:%M:%S'));
+            });
+        });
+
         $('.sub-links').on('click', function(event) {
             var div = $(event.target).attr('href');
             $('.sub-sections').hide();
@@ -241,6 +254,11 @@ ApplicationLoad = {
         $('.bar-result').each(function(index, el) {
             var percent = $(el).attr('percent');
             $(this).css('height', percent);
+        });
+
+        $('.bar-result-questoes').each(function(index, el) {
+            var percent = $(el).attr('percent');
+            $(this).css('width', percent + '%');
         });
 
         $('.bt-alterar-senha').on('click', function(event) {

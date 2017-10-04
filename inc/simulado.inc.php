@@ -75,9 +75,9 @@
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="" class="apagar animation">APAGAR</a>
-							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="historico animation">HISTÓRICO</a>
-							<a href="" class="comecar animation">COMEÇAR</a>
+							<a href="" class="links apagar animation">APAGAR</a>
+							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="links historico animation">HISTÓRICO</a>
+							<a href="" class="links comecar animation">COMEÇAR</a>
 
 						</div>
 					</div>
@@ -90,48 +90,58 @@
 								<div class="col-sm-4">
 									<div class="grafico">
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="20">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="20">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>1º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="80">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="80">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>2º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="20">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="20">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>3º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="99">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="99">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>4º</p>
 										</div>
 										<div class="grafico-1">
-											<div class="barra">
-												<div class="acertos"><p>10</p></div>
-												<div class="bar-result" percent="2">
-													<div class="erros"><p>20</p></div>
+											<a href="?url=feedback-simulado">
+												<div class="barra">
+													<div class="acertos"><p>10</p></div>
+													<div class="bar-result" percent="2">
+														<div class="erros"><p>20</p></div>
+													</div>
 												</div>
-											</div>
+											</a>
 											<p>5º</p>
 										</div>
 									</div>

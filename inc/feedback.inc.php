@@ -19,7 +19,7 @@
 				<h6><span class="ico"><img src="src/img/feedback/ico-4.svg" alt=""></span> Seu acerto líquido foi de  <strong>00</strong> <span class="text">Média de acerto líquido O </span></h6>
 				<h6><span class="ico"><img src="src/img/feedback/ico-5.svg" alt=""></span> Sua pontuação ﬁnal é  <strong>00</strong> <span class="text">Pontuação média 0 </span></h6>
 				<h6><span class="ico"><img src="src/img/coin.png" alt=""></span> Você ganhou <strong>$ 00</strong> <span class="text">Ganho médio $ 00 </span></h6>
-				<h6><span class="ico"><img src="src/img/feedback/ico-6.svg" alt=""></span> Você subiu para a posição  <strong>00</strong> <br> Obteve um aumento no rendimento de <strong>10%</strong></h6>				
+				<h6><span class="ico"><img src="src/img/feedback/ico-6.svg" alt=""></span> Você subiu para a posição  <strong>00</strong> <br> Obteve um aumento no rendimento de <strong>10%</strong></h6>
 			</div>
 			<div class="col-sm-5">
 				<div class="row">
@@ -127,25 +127,21 @@
 </section>
 <section class="section-questoes">
 	<div class="container">
-	<div class="header-questoes">
-	<div class="row">
-
-					<div class="col-xs-2"><h3>QUESTÃO</h3></div>
-					<div class="col-xs-2"><h3>SUA RESPOSTA</h3></div>
-					<div class="col-xs-2"><h3>GABARITO</h3></div>
-					<div class="col-xs-2"><h3>ASSUNTO</h3></div>
-					<div class="col-xs-2"><h3>FREQUÊNCIA</h3><h4>nas provas</h4></div>
-					<div class="col-xs-2"><h3>ACERTO</h3></div>
-				</div>
+		<div class="header-questoes">
+			<div class="row">
+				<div class="col-xs-2"><h3>QUESTÃO</h3></div>
+				<div class="col-xs-2"><h3>SUA RESPOSTA</h3></div>
+				<div class="col-xs-2"><h3>GABARITO</h3></div>
+				<div class="col-xs-2"><h3>ASSUNTO</h3></div>
+				<div class="col-xs-2"><h3>FREQUÊNCIA</h3><h4>nas provas</h4></div>
+				<div class="col-xs-2"><h3>ACERTO</h3></div>
 			</div>
+		</div>
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-
+				<div class="panel-group accordion-questoes" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H1">
-
 							<h4 class="panel-title">
 							<a role="button" data-toggle="collapse" class="coll-questoes" data-parent="#accordion" href="#1" aria-expanded="false" aria-controls="1">
 								<div class="row">
@@ -158,15 +154,24 @@
 									</div>
 									<div class="col-xs-2">
 										<p class="">C</p>
-									</div>	
+									</div>
 									<div class="col-xs-2">
 										<p class="">ASSUNTO</p>
 									</div>
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
-									</div>									
+									<div class="col-xs-2">
+
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes verde" percent="80">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
+
+									</div>
 								</div>
 							</a>
 							</h4>
@@ -180,12 +185,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -195,12 +199,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -210,12 +213,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -225,19 +227,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H2">
 							<h4 class="panel-title">
@@ -259,7 +258,14 @@
 									<div class="col-xs-2">
 										<p class="">80%</p>
 									</div>
-									<div class="col-xs-2">										
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes amarelo" percent="40">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
 									</div>
 								</div>
 							</a>
@@ -274,12 +280,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -289,12 +294,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -304,12 +308,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -319,19 +322,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H3">
 							<h4 class="panel-title">
@@ -353,7 +353,14 @@
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes vermelho" percent="20">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
 									</div>
 								</div>
 							</a>
@@ -368,12 +375,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -383,12 +389,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -398,12 +403,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -413,19 +417,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H4">
 							<h4 class="panel-title">
@@ -447,8 +448,15 @@
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
-									</div>	
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes verde" percent="80">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
+									</div>
 								</div>
 							</a>
 							</h4>
@@ -462,12 +470,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -477,12 +484,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -492,12 +498,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -507,19 +512,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H5">
 							<h4 class="panel-title">
@@ -541,8 +543,15 @@
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
-									</div>	
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes verde" percent="80">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
+									</div>
 								</div>
 							</a>
 							</h4>
@@ -556,12 +565,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -571,12 +579,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -586,12 +593,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -601,19 +607,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H6">
 							<h4 class="panel-title">
@@ -635,8 +638,15 @@
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
-									</div>	
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes amarelo" percent="50">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
+									</div>
 								</div>
 							</a>
 							</h4>
@@ -650,12 +660,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -665,12 +674,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -680,12 +688,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -695,19 +702,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="H7">
 							<h4 class="panel-title">
@@ -729,8 +733,15 @@
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
-									</div>	
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes verde" percent="80">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
+									</div>
 								</div>
 							</a>
 							</h4>
@@ -744,12 +755,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -759,12 +769,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -774,12 +783,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -789,19 +797,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 					<div class="panel panel-default">
 						<div class="panel-heading cinza" role="tab" id="H8">
 							<h4 class="panel-title">
@@ -823,8 +828,15 @@
 									<div class="col-xs-2">
 										<p class="">20%</p>
 									</div>
-									<div class="col-xs-2">										
-									</div>	
+									<div class="col-xs-2">
+										<div class="grafico-1">
+												<div class="barra">
+													<div class="bar-result-questoes verde" percent="80">
+														<p>80%</p>
+													</div>
+												</div>
+										</div>
+									</div>
 								</div>
 							</a>
 							</h4>
@@ -838,12 +850,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -853,12 +864,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar verde" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -868,12 +878,11 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar vermelho" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 								<div class="item-questao">
@@ -883,19 +892,16 @@
 										</div>
 										<div class="col-xs-8">
 											<div class="progress">
-											<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-												Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												<div class="progress-bar cinza" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+													Lorem ipsum dolor sit amet lorem ipsum dolor sit amet orem ipsum. <span class="cor">75%</span>
+												</div>
 											</div>
 										</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
 		</div>

@@ -5,19 +5,16 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2 col-sm-offset-1">
-					<div class="form-group">
-						<select name="ano" id="ano" class="form-control">
-							<option value="">DE ANO</option>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group">
-						<select name="ano" id="ano" class="form-control">
-							<option value="">ATÉ ANO</option>
-						</select>
-					</div>
+				<div class="col-sm-4">
+					<select class="form-control select-ano" multiple data-plugin="select2" placeholder="Ano">
+						<optgroup label="Selecione os Anos">
+							<?php
+							$ano = date('Y');
+							for($i=0; $i<=20; $i++){ ?>
+							<option value="<?=$ano-$i?>"><?=$ano-$i?></option>
+							<?php } ?>
+						</optgroup>
+					</select>
 				</div>
 				<div class="col-sm-2">
 					<div class="form-group">
@@ -57,7 +54,6 @@
 								</select>
 							</div>
 						</div>
-
 					</div>
 				</form>
 			</div>
@@ -153,7 +149,6 @@
 <div class="sub-sections" id="evolucao">
 	<?php include("inc/section-evolucao.inc.php"); ?>
 </div>
-
 <section class="section-pagination">
 	<div class="container">
 		<div class="row">

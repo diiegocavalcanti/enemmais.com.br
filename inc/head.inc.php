@@ -29,6 +29,8 @@ $endereco = $_SERVER ['REQUEST_URI'];
 <link rel="stylesheet" href="src/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 <link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css">
+<link rel="stylesheet" href="src/select2/select2.css">
+<link rel="stylesheet" href="src/select2/select2-bootstrap.min.css">
 <link rel="stylesheet" href="src/css/main.css" media="all">
 <link rel="stylesheet" href="src/css/responsive.css" media="all">
 <link rel="stylesheet" href="src/css/animate.css" media="all">
@@ -56,5 +58,6 @@ $endereco = $_SERVER ['REQUEST_URI'];
 <script src="src/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
 <script src="src/bower_components/chart.js/dist/Chart.js"></script>
 <script src="src/bower_components/chart.js/dist/Chart.bundle.js"></script>
+<script src="src/select2/select2.min.js"></script>
 <script src="src/js/main.js"></script>
 <script src="src/js/formularios.js"></script>

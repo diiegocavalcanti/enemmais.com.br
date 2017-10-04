@@ -678,6 +678,7 @@ header{
 footer{
   padding-top: 30px;
   padding-bottom: 30px;
+  border-top: 1px solid #124882;
 }
 footer p{
   padding-top: 20px;
@@ -1760,7 +1761,7 @@ footer .social-icons img{
   color: #878786;
   font-size: 12px;
 }
-.section-res-provas a{
+.section-res-provas a.links{
   text-align: right;
   display: inline-block;
   padding-left: 20px;
@@ -1905,7 +1906,7 @@ footer .social-icons img{
   color: #878786;
   font-size: 12px;
 }
-.section-res-simulado a{
+.section-res-simulado a.links{
   text-align: right;
   display: inline-block;
   padding-left: 15px;
@@ -2517,4 +2518,243 @@ font-weight: bold;
 .coll-questoes p{
   display: inline-block;
   vertical-align: middle;
+}
+.select-ano:placeholder{
+  color: #3F71B0;
+  font-weight: bold;
+}
+
+.select-ano::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3F71B0;
+  font-weight: bold;
+}
+.select-ano::-moz-placeholder { /* Firefox 19+ */
+  color: #3F71B0;
+  font-weight: bold;
+}
+.select-ano:-ms-input-placeholder { /* IE 10+ */
+  color: #3F71B0;
+  font-weight: bold;
+}
+.select-ano:-moz-placeholder { /* Firefox 18- */
+  color: #3F71B0;
+  font-weight: bold;
+}
+
+.section-jogo .bread{
+  background-color:#F1F0F0;
+  color: #081F2B;
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.section-jogo .bread.verde{
+  background-color:#67B32D;
+}
+.section-jogo .bread.amarelo{
+background-color: #F2E500;
+}
+.section-jogo{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section-jogo h2{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 7px;
+  color: #3F71B0;
+}
+.section-jogo .h3{
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  color: #E5452E;
+  margin-top: 0px;
+}
+.section-jogo .h6{
+  font-size: 36px;
+  color: #3F71B0;
+  font-weight: bold;
+}
+
+.section-jogo  .container-materia{
+  background-color:#E5452E;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #FFF;
+  font-family: 'VCR OSD Mono';
+  text-transform: uppercase;
+}
+.section-jogo  .container-materia h3{
+  font-size: 21px;
+  padding-bottom: 5px;
+}
+.section-jogo  .container-materia h6{
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.section-jogo  .container-materia p.coin{
+  font-size: 17px;
+  text-align:right;
+}
+
+.section-jogo .container-materia p.coin{
+  font-size: 14px;
+  vertical-align: middle;
+}
+.section-jogo .container-materia p.coin span{
+  vertical-align: middle;
+  display: inline-block;
+}
+.section-jogo .container-materia p.coin img{
+  vertical-align: middle;
+}
+
+.section-jogo  .container-materia p.text-rv, .section-jogo  .container-materia p.text-hora{
+  font-size: 11px;
+  text-align: left;
+  padding-top: 7px;
+}
+.section-jogo  .container-materia a.button-jogar{
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #FFF;
+  background-color: #E5452E;
+  font-size: 11px;
+  margin-top: 8px;
+}
+.section-jogo  .container-materia a.button-jogar:hover{
+  background-color: #FFF;
+  color: #E5452E;
+}
+.section-jogo .paginacao-questoes{
+  padding-top: 30px;
+}
+.timer-questao p{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.navigator-questoes{
+  padding-top: 20px;
+  text-align: center;
+}
+.navigator-questoes a{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #3F71B0;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.sn-ctn .grafico-1{
+  display: block;
+  width: 100%;
+}
+.sn-ctn .grafico-1 .barra{
+  background-color: #E30513;
+  width: 100%;
+  height: 10px;
+  position: relative;
+}
+.sn-ctn .grafico-1 .barra .bar-result-questoes{
+  background-color: #3AA935;
+  bottom: 0;
+  width: 20%;
+  height: 10px;
+  position: absolute;
+}
+.sn-ctn .grafico-1 p{
+  display: block;
+  width: 100%;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 20px;
+}
+.sn-ctn .grafico-1 p span.acertos{
+  text-align: left;
+  position: absolute;
+  left: 0;
+  margin-top: -10px;
+  color: #3AA935;
+}
+.sn-ctn .grafico-1 p span.erros{
+  text-align: right;
+  position: absolute;
+  right: 0;
+  margin-top: -10px;
+  color: #E30513;
+}
+.sn-ctn .grafico-1 p.legenda-grafico{
+  margin-top: 10px !important;
+}
+.sn-ctn .grafico-questoes{
+  width: 100%;
+}
+
+
+
+.accordion-questoes .grafico-1{
+  display: block;
+  width: 100%;
+}
+.accordion-questoes .grafico-1 .barra{
+  background-color: none;
+  width: 100%;
+  height: 20px;
+  position: relative;
+}
+.accordion-questoes .grafico-1 .barra .bar-result-questoes p{
+  color: #FFF;
+  line-height: 20px;
+}
+.accordion-questoes .grafico-1 .barra .bar-result-questoes{
+
+  bottom: 0;
+  width: 20%;
+  height: 20px;
+  position: absolute;
+}
+.accordion-questoes .grafico-1 .barra .bar-result-questoes.verde{
+  background-color: #3AA935;
+}
+.accordion-questoes .grafico-1 .barra .bar-result-questoes.amarelo{
+  background-color: #FFED00;
+}
+.accordion-questoes .grafico-1 .barra .bar-result-questoes.vermelho{
+  background-color: #E30513;
+}
+
+.accordion-questoes .grafico-1 p span.acertos{
+  text-align: left;
+  position: absolute;
+  left: 0;
+  margin-top: -10px;
+  color: #3AA935;
+}
+.accordion-questoes .grafico-1 p span.erros{
+  text-align: right;
+  position: absolute;
+  right: 0;
+  margin-top: -10px;
+  color: #E30513;
+}
+.accordion-questoes .grafico-1 p.legenda-grafico{
+  margin-top: 10px !important;
+}
+.accordion-questoes .grafico-questoes{
+  width: 100%;
 }
