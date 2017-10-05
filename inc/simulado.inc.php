@@ -5,17 +5,23 @@
 	<div class="container">
 		<div class="row">
 			<form action="">
-				<div class="col-sm-2 col-sm-offset-3">
-					<div class="form-group">
-						<select name="ano" id="ano" class="form-control">
-							<option value="">ANO</option>
-						</select>
-					</div>
+				<div class="col-sm-3 col-sm-offset-2">
+					<select class="form-control select-ano" multiple data-plugin="select2" data-placeholder="Ano">
+						<optgroup label="Selecione os Anos">
+							<?php
+							$ano = date('Y');
+							for($i=0; $i<=20; $i++){ ?>
+							<option value="<?=$ano-$i?>"><?=$ano-$i?></option>
+							<?php } ?>
+						</optgroup>
+					</select>
 				</div>
-				<div class="col-sm-2">
+				<div class="col-sm-4">
 					<div class="form-group">
-						<select name="disciplina" id="disciplina" class="form-control">
-							<option value="">DISCIPLINA</option>
+						<select class="form-control select-ano" multiple data-plugin="select2" name="disciplina" id="disciplina" data-placeholder="Disciplina">
+							<optgroup label="Selecione as Disciplinas">
+								<option value="1">Disciplina</option>								
+							</optgroup>
 						</select>
 					</div>
 				</div>
@@ -71,14 +77,13 @@
 				<div class="ctn-res-provas">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>#<?=$i?> ANO/DISCIPLINA/DISCIPLINA/DISCIPLINA </h2>
+							<h2>#<?=$i?> ANO/DISCIPLINA </h2>
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
 							<a href="" class="links apagar animation">APAGAR</a>
 							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="links historico animation">HISTÓRICO</a>
 							<a href="" class="links comecar animation">COMEÇAR</a>
-
 						</div>
 					</div>
 					<div class="row">
@@ -226,7 +231,7 @@
 							</div>
 						</div>
 						<div class="col-sm-12">
-							<div class="form-group"><button class="btn animation" type="submit">SALVAR</button></div>
+							<div class="form-group"><button class="btn animation" type="submit">CRIAR SIMULADO</button></div>
 						</div>
 					</form>
 				</div>

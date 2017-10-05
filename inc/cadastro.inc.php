@@ -1,4 +1,4 @@
-<?php include("inc/section-letreiro-slide.inc.php"); ?>
+	<?php include("inc/section-letreiro-slide.inc.php"); ?>
 <section class="section-titulos configuracoes-bg">
 	<div class="container">
 		<div class="row">
@@ -24,6 +24,21 @@
 							<label for="">E-mail</label>
 							<input type="email" name="email" id="email" required class="form-control" placeholder="exemplo@exemplo.com">
 						</div>
+					</div>
+					<div class="col-sm-12">
+						<label for="">Escolha seu curso de interesse</label>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<select name="interesse" id="interesse" class="form-control">
+										<option value="MED">Medicina</option>
+										<option value="DIR">Direito</option>
+										<option value="ADM">Administração</option>
+										<option value="CIE">Ciência da Computação</option>									
+									</select>
+								</div>
+							</div>
+						</div>						
 					</div>
 					<div class="col-xs-12">
 						<div class="row">

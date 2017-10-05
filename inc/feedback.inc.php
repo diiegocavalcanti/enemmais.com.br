@@ -21,6 +21,9 @@
 				<h6><span class="ico"><img src="src/img/coin.png" alt=""></span> Você ganhou <strong>$ 00</strong> <span class="text">Ganho médio $ 00 </span></h6>
 				<h6><span class="ico"><img src="src/img/feedback/ico-6.svg" alt=""></span> Você subiu para a posição  <strong>00</strong> <br> Obteve um aumento no rendimento de <strong>10%</strong></h6>
 			</div>
+			<div class="col-sm-5">	
+				<h6>Você ficou na <strong>10ª</strong> colocação geral </h6>
+			</div>	
 			<div class="col-sm-5">
 				<div class="row">
 					<div class="col-sm-7">

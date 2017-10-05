@@ -6,28 +6,28 @@ function loadCharts() {
     var RadarChart = new Chart(document.getElementById("grafico-radar"), {
         type: 'radar',
         data: {
-            labels: ['Banca 1', 'Banca 2', 'Banca 3', 'Banca 4', 'Banca 5', 'Banca 6', 'Banca 7'],
+            labels: ['Ano 2013', 'Ano 2014', 'Ano 2015', 'Ano 2016'],
             datasets: [{
                 label: 'Menos Acertos',
-                data: [17, 8, 19, 13, 20, 29, 31],
+                data: [17, 8, 19, 13],
                 backgroundColor: 'rgba(153, 102, 255, 0.4)',
                 borderColor: 'rgb(153, 102, 255)'
 
             }, {
                 label: 'Sua Média',
-                data: [48, 31, 45, 50, 70, 45, 20],
+                data: [48, 31, 45, 50],
                 backgroundColor: 'rgba(74, 191, 191, 0.4)',
                 borderColor: 'rgb(74, 191, 191)'
 
             }, {
                 label: 'Média Geral',
-                data: [28, 21, 55, 60, 40, 35, 30],
+                data: [28, 21, 55, 60],
                 backgroundColor: 'rgba(53, 161, 234, 0.4)',
                 borderColor: 'rgb(53, 161, 234)'
 
             }, {
                 label: 'Mais Acertos',
-                data: [88, 71, 95, 70, 80, 95, 60],
+                data: [88, 71, 95, 70],
                 backgroundColor: 'rgba(255, 204, 85, 0.4)',
                 borderColor: 'rgb(255, 204, 85)'
 
@@ -221,7 +221,7 @@ function loadCharts() {
     window.acerto_banca = new Chart(document.getElementById("acerto-banca").getContext("2d"), {
         type: 'radar',
         data: {
-            labels: ['Banca 1', 'Banca 2', 'Banca 3', 'Banca 4', 'Banca 5', 'Banca 6', 'Banca 7', 'Banca 8'],
+            labels: ['Disciplina 1', 'Disciplina 2', 'Disciplina 3', 'Disciplina 4', 'Disciplina 5', 'Disciplina 6', 'Disciplina 7', 'Disciplina 8'],
             datasets: [{
                 backgroundColor: 'rgba(74, 191, 191, 0.5)',
                 borderColor: 'rgb(74, 191, 191)',

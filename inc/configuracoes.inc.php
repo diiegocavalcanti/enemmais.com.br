@@ -24,28 +24,18 @@
 						<input type="text" name="dataNascimento" id="dataNascimento" required class="form-control" placeholder="01/01/2017">
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="form-group">
-						<label for="">Sexo</label>
-						<div class="row">
-							<div class="col-xs-6">
-								<div class="radio">
-									<label>
-										<input type="radio" name="sexo" id="sexo" value="Feminino">
-										Fem
-									</label>
-								</div>
-							</div>
-							<div class="col-xs-6">
-								<div class="radio">
-									<label>
-										<input type="radio" name="sexo" id="sexo" value="Masculino">
-										Mas
-									</label>
-								</div>
+				<div class="col-sm-4">							
+					<label for="">Sexo</label>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<select name="sexo" id="sexo" class="form-control">
+									<option value="fem">Feminino</option>
+									<option value="mas">Masculino</option>											
+								</select>
 							</div>
 						</div>
-					</div>
+					</div>							
 				</div>
 				<div class="col-sm-4">
 					<div class="form-group">
@@ -117,33 +107,41 @@
 								<input type="file" id="exampleInputFile">
 								<p class="help-block">Adicione uma foto para sua conta</p>
 							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="form-group">
-								<label for="">Deseja receber informações via email?</label>
-								<div class="row">
-									<div class="col-xs-6">
-										<div class="radio">
-											<label>
-												<input type="radio" name="desejaEmail" id="desejaEmail" value="Sim">
-												Sim
-											</label>
-										</div>
-									</div>
-									<div class="col-xs-6">
-										<div class="radio">
-											<label>
-												<input type="radio" name="desejaEmail" id="desejaEmail" value="Nao">
-												Não
-											</label>
-										</div>
+						</div>						
+					</div>
+				</div>	
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="col-sm-8">
+							<label for="">Escolha seu curso de interesse</label>
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="form-group">
+										<select name="interesse" id="interesse" class="form-control">
+											<option value="MED">Medicina</option>
+											<option value="DIR">Direito</option>
+											<option value="ADM">Administração</option>
+											<option value="CIE">Ciência da Computação</option>									
+										</select>
 									</div>
 								</div>
-							</div>
+							</div>							
 						</div>
-						
-					</div>
-				</div>
+						<div class="col-sm-4">							
+							<label for="">Deseja receber informações via email?</label>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="form-group">
+										<select name="desejaEmail" id="desejaEmail" class="form-control">
+											<option value="sim">Sim</option>
+											<option value="nao">Não</option>											
+										</select>
+									</div>
+								</div>
+							</div>							
+						</div>
+					</div>						
+				</div>			
 				<div class="col-xs-12">
 					<div class="row">
 						<div class="col-sm-2">
@@ -159,127 +157,6 @@
 							<div class="form-group">
 								<label for="">Confirmar Senha</label>
 								<input type="password" name="senha" id="senha" required readonly class="campo-senha form-control">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12">
-					<div class="interesse">
-						<h4>Assinale suas áreas de interesse</h4>
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="agenciasReguladoras">
-										Agências reguladoras
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Bancária
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Conselhos de Fiscalização
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Educação
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										EP e SEM
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Estágio
-									</label>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Exame de Proﬁciência
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Executivo
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Fiscal
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Forças Armadas
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Gestão e Controle
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Judiciário (Servidor)
-									</label>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Judiciário (Autoridade)
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Legislativo
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Policial
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Saúde
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Saúde
-									</label>
-								</div>
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="interesse" id="interesse" value="Sim">
-										Saúde
-									</label>
-								</div>
 							</div>
 						</div>
 					</div>

@@ -41,57 +41,57 @@
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2 paginacao-questoes">
-					<div class="verde bread">
+					<a href="?url=jogo"><div class="verde bread">
 						<p>1</p>
-					</div>
-					<div class="verde bread">
+					</div></a>
+					<a href="?url=jogo"><div class="verde bread">
 						<p>2</p>
-					</div>
-					<div class="verde bread">
+					</div></a>
+					<a href="?url=jogo"><div class="verde bread">
 						<p>3</p>
-					</div>
-					<div class="verde bread">
+					</div></a>
+					<a href="?url=jogo"><div class="verde bread">
 						<p>4</p>
-					</div>
-					<div class="verde bread">
+					</div></a>
+					<a href="?url=jogo"><div class="verde bread">
 						<p>5</p>
-					</div>
-					<div class="verde bread">
+					</div></a>
+					<a href="?url=jogo"><div class="verde bread">
 						<p>6</p>
-					</div>
-					<div class="verde bread">
+					</div></a>
+					<a href="?url=jogo"><div class="verde bread">
 						<p>7</p>
-					</div>
-					<div class="amarelo bread">
+					</div></a>
+					<a href="?url=jogo"><div class="amarelo bread">
 						<p>8</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>9</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>10</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>11</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>12</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>13</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>14</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>15</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>16</p>
-					</div>
-					<div class=" bread">
+					</div></a>
+					<a href="?url=jogo"><div class=" bread">
 						<p>17</p>
-					</div>
+					</div></a>
 
 			</div>
 		</div>

@@ -54,11 +54,9 @@
 							<p>10 questões   Criado em 00/00/0000</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="" class="apagar animation">APAGAR</a>
-							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="historico animation">HISTÓRICO</a>
-							<a href="" class="comecar animation">COMEÇAR</a>
-
-
+							<a href="" class="links apagar animation">APAGAR</a>
+							<a role="button" data-toggle="collapse" href="#collapse-caderno-<?=$i?>" aria-expanded="false" aria-controls="collapse-caderno-<?=$i?>" class="links historico animation">HISTÓRICO</a>
+							<a href="?url=questoes-caderno" class="links comecar animation">COMEÇAR</a>
 						</div>
 					</div>
 					<div class="row">
@@ -139,9 +137,7 @@
 					</div>
 				</div>
 			</div>
-
 			<?php } ?>
-
 		</div>
 	</div>
 </section>

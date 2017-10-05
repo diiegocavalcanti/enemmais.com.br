@@ -76,7 +76,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde explicabo sunt quod nulla ratione similique harum doloribus, quisquam facere labore, natus distinctio fugit officiis, iste earum magni pariatur maiores iusto!</p>
 			</div>
 			<div class="col-xs-12">
-				<a class="animation" href="">JOGAR</a>
+				<a class="animation" href="?url=jogo">JOGAR</a>
 			</div>
 		</div>
 	</div>

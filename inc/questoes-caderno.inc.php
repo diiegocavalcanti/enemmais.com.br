@@ -1,47 +1,7 @@
 <?php include("inc/section-letreiro-slide.inc.php"); ?>
 <?php include("inc/section-questoes.inc.php") ?>
-<?php include("inc/section-menu.inc.php") ?>
-<section class="section-busca">
-	<div class="container">
-		<div class="row">
-			<form action="">
-				<div class="col-sm-3">
-					<select class="form-control select-ano" multiple data-plugin="select2" data-placeholder="Ano">
-						<optgroup label="Selecione os Anos">
-							<?php
-							$ano = date('Y');
-							for($i=0; $i<=20; $i++){ ?>
-							<option value="<?=$ano-$i?>"><?=$ano-$i?></option>
-							<?php } ?>
-						</optgroup>
-					</select>
-				</div>
-				<div class="col-sm-3">
-					<div class="form-group">
-						<select class="form-control select-ano" multiple data-plugin="select2" name="disciplina" id="disciplina" data-placeholder="Disciplina">
-							<optgroup label="Selecione as Disciplinas">
-								<option value="1">Disciplina</option>								
-							</optgroup>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="form-group">
-						<select class="form-control select-ano" multiple data-plugin="select2" name="assunto" id="assunto" data-placeholder="Assunto">
-							<optgroup label="Selecione os Assuntos">
-								<option value="1">Assunto</option>								
-							</optgroup>
-						</select>
-					</div>
-				</div>
-				<div class="col-sm-2">
-					<div class="form-group"><button class="btn" type="submit">FILTRAR</button></div>
-				</div>
-			</form>
-		</div>
-	</div>
-</section>
-<section class="section-resultados">
+
+<section class="section-menu">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">

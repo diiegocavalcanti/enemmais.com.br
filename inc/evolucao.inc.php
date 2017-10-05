@@ -70,22 +70,20 @@
 					<div class="grafico-questoes">
 						<h3>1000</h3>
 						<div class="grafico-1">
-							<a href="?url=feedback-simulado">
-								<p>
-									<span class="acertos">80%</span>
-									<span class="erros">20%</span>
-								</p>
+							<p>
+								<span class="acertos">80%</span>
+								<span class="erros">20%</span>
+							</p>
 
-								<div class="barra">
-									<div class="bar-result-questoes" percent="80">
-									</div>
+							<div class="barra">
+								<div class="bar-result-questoes" percent="80">
 								</div>
+							</div>
 
-								<p class="legenda-grafico">
-									<span class="acertos">Acertos</span>
-									<span class="erros">Erros</span>
-								</p>
-							</a>
+							<p class="legenda-grafico">
+								<span class="acertos">Acertos</span>
+								<span class="erros">Erros</span>
+							</p>							
 						</div>
 					</div>
 				</div>
@@ -183,7 +181,7 @@
 				<canvas class="grafico" id="grafico-bar"></canvas>
 			</div>
 			<div class="col-sm-6">
-				<h4>Tempo Médio por Questão/Mês</h4>
+				<h4>Total de Questões Respondidas/Mês</h4>
 				<canvas class="grafico" id="grafico-line"></canvas>
 			</div>
 		</div>
@@ -199,7 +197,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<h4>Acerto por Banca</h4>
+				<h4>Acerto por Ano</h4>
 				<canvas class="grafico" id="grafico-radar"></canvas>
 			</div>
 			<div class="col-sm-6">
@@ -239,13 +237,13 @@
 			</div>
 			<div class="col-sm-2">
 				<div class="svg-title">
-					<h2>Banca com Mais Questões Resolvidas</h2>
+					<h2>Ano com Mais Questões Resolvidas</h2>
 				</div>
 				<div class="svg-key">
-					<h3>CESPE</h3>
+					<h3>2013</h3>
 				</div>
 				<div class="svg-value">
-					<h6>CESGRANRIO</h6>
+					<h6>2014</h6>
 				</div>
 			</div>
 			<div class="col-sm-2">
