@@ -31,7 +31,7 @@
 		  </div>
 		</div>
 
-	<?php include("inc/header.inc.php"); ?>
+	<?php include("inc/header-logado.inc.php"); ?>
 
 	<?php
 
