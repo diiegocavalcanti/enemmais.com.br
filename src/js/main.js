@@ -33,6 +33,8 @@ ApplicationLoad = {
             }
         });
 
+
+
         function openModal(html, titulo) {
             loadIn();
             $('.modal-title').html(titulo);
@@ -240,7 +242,20 @@ ApplicationLoad = {
         $('.sub-links').on('click', function(event) {
             var div = $(event.target).attr('href');
             $('.sub-sections').hide();
-            $(div).show(400);
+            $(div).fadeIn(400, function() {
+                $(event.target).attr('data-toggle', 'collapse');
+            });
+
+        });
+
+        $('.collapse').on('hidden.bs.collapse', function(event) {
+            console.log();
+            $(this).siblings('.section-button-collapse').find('img.btn-collapse').attr('src', 'src/img/questoes/down.svg');
+        });
+
+        $('.collapse').on('show.bs.collapse', function(event) {
+            console.log($(this));
+            $(this).siblings('.section-button-collapse').find('img.btn-collapse').attr('src', 'src/img/questoes/up.svg');
         });
 
         $('.seletor-simulado').on('click', function(event) {

@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="row">
 			<a role="button" data-toggle="collapse" href="#collapse-evolucao" aria-expanded="true" aria-controls="collapse-evolucao" class="bt-coll">
-				<img src="src/img/questoes/up.svg" alt="">
+				<img class="btn-collapse" src="src/img/questoes/up.svg" alt="">
 			</a>
 		</div>
 	</div>

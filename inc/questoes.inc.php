@@ -20,7 +20,7 @@
 					<div class="form-group">
 						<select class="form-control select-ano" multiple data-plugin="select2" name="disciplina" id="disciplina" data-placeholder="Disciplina">
 							<optgroup label="Selecione as Disciplinas">
-								<option value="1">Disciplina</option>								
+								<option value="1">Disciplina</option>
 							</optgroup>
 						</select>
 					</div>
@@ -29,7 +29,7 @@
 					<div class="form-group">
 						<select class="form-control select-ano" multiple data-plugin="select2" name="assunto" id="assunto" data-placeholder="Assunto">
 							<optgroup label="Selecione os Assuntos">
-								<option value="1">Assunto</option>								
+								<option value="1">Assunto</option>
 							</optgroup>
 						</select>
 					</div>
@@ -133,10 +133,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<a class="sub-links" href="#comentarios">COMENTÁRIOS</a>
-				<a class="sub-links" href="#estatisticas">ESTATÍSTICAS</a>
-				<a class="sub-links" href="#adicionar-caderno">ADICIONAR A UM CADERNO</a>
-				<a class="sub-links" href="#evolucao">EVOLUÇÃO</a>
+				<a class="sub-links" href="#comentarios" data-target="#collapse-comentario" aria-expanded="true" aria-controls="collapse-comentario">COMENTÁRIOS</a>
+				<a class="sub-links" data-target="#collapse-estatisticas" aria-expanded="true" aria-controls="collapse-estatisticas" href="#estatisticas">ESTATÍSTICAS</a>
+				<a class="sub-links" data-target="#collapse-adicionar-caderno" aria-expanded="true" aria-controls="collapse-adicionar-caderno" href="#adicionar-caderno">ADICIONAR A UM CADERNO</a>
+				<a class="sub-links" data-target="#collapse-evolucao" aria-expanded="true" aria-controls="collapse-evolucao" href="#evolucao">EVOLUÇÃO</a>
 			</div>
 		</div>
 	</div>
