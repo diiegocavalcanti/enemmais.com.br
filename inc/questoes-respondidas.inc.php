@@ -7,7 +7,7 @@
 					<p>10 questões respondidas em 00/00/0000</p>
 				</div>
 				<div class="col-sm-6">
-					<a href="?url=feedback" class="comecar animation">VER RESULTADO</a>
+					<a href="?url=feedback" class="links comecar animation">VER RESULTADO</a>
 				</div>
 			</div>
 		</div>
